@@ -37,7 +37,6 @@ Make sure you have the following installed on your system:
    ```bash
    git clone https://github.com/Rahamatullamandal2005/Ecommerce-store.git
    ```  
-   Replace `yourusername` with your GitHub username.
 
 2. **Navigate to the Project Directory**  
    ```bash
