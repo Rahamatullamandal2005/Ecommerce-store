@@ -1,0 +1,15 @@
+.checkout {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .checkout h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .checkout p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  

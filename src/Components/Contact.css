@@ -1,0 +1,132 @@
+/* Main Contact Page */
+.contact-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 50px;
+  }
+  
+  /* Form Container */
+  .contact-form-container {
+    width: 55%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Styling */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-form h2 {
+    color: #3a3a3a;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  label {
+    font-size: 18px;
+    color: #3a3a3a;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #dfe3e6;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #1e88e5;
+    outline: none;
+  }
+  
+  textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  /* Button Styling */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(14, 27, 77);
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submit-btn:hover {
+    background-color: rgb(103, 121, 182);
+  }
+  
+  /* Status Message */
+  .status-message {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .status-message {
+    color: green;
+  }
+  
+  /* Location Side */
+  .location-side {
+    width: 35%;
+    padding: 20px;
+    background-color: #f7f9fc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .location-side h3 {
+    color: #3a3a3a;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  
+  .location-side p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .map {
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-page {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-form-container,
+    .location-side {
+      width: 90%;
+      margin-bottom: 30px;
+    }
+  }
+  

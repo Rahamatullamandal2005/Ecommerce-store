@@ -1,0 +1,87 @@
+/* Container styling */
+.sign-in-form {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 100px;
+  position: relative;
+  animation: slideIn 1.5s ease-in-out;
+  background-color: #f7f9fc;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #3a3a3a;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #dfe3e6;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  border-color: #1e88e5;
+  outline: none;
+}
+
+/* Button styling */
+.loginbtn {
+  width: 100%;
+  font-size: 16px;
+  background-color: rgb(14, 27, 77);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2px;
+  outline: none;
+  color: white;
+  padding: 12px;
+  border-radius: 20px;
+  margin-left: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.loginbtn:hover {
+  background-color: rgb(103, 121, 182);
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Animation */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
