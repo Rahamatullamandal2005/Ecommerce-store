@@ -72,17 +72,6 @@ Make sure you have the following installed on your system:
 
 ---
 
-## Project Structure
-
-```plaintext
-src/
-├── components/      # Reusable UI components (e.g., Navbar, Footer, ProductCard)
-├── pages/           # Main pages (e.g., Home, Login, Signup, Cart, Contact)
-├── context/         # Context API for state management (e.g., CartContext, AuthContext)
-├── assets/          # Images, icons, and other static files
-├── App.js           # Main application file
-├── index.js         # Entry point for the React app
-```
 
 ---
 
