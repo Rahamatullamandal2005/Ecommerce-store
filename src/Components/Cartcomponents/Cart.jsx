@@ -2,6 +2,7 @@ import React, { useEffect, useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/cart.css";
 
+
 const Cart = ({ cart, setCart, handlechange }) => {
   const [price, setPrice] = useState(0);
   const navigate = useNavigate();
